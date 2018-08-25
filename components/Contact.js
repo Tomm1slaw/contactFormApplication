@@ -6,7 +6,7 @@ var Contact = React.createClass({
   render: function() {
     return (
       React.createElement('div', {className: 'contactItem'},
-        React.createElement('div', {},
+        React.createElement('div', {className: 'contactLook'},
           React.createElement('img', {
             className: 'contactImage',
             src: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=350'

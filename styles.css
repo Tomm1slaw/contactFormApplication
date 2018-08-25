@@ -28,10 +28,18 @@ body {
 	justify-content: center;
 }
 .contactImage {
-	position: cover;
-	border-radius: 50%;
 	width: 100px;
-	height: 100px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contactLook {
+	width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
 }
 .contactLabel {
 	font-weight: bold;
