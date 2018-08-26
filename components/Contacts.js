@@ -22,9 +22,7 @@ render: function() {
     });
 
     return (
-      <ul className={'contactsList'}
-      /> 
-      <contacts />
+      <ul className={'contactsList'}>{contacts}</>
     );
   }
 });
