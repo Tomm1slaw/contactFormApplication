@@ -30,7 +30,7 @@ var Contact = React.createClass({
     return (
       <div className={'contactItem'}>
         <div className={'contactLook'}>
-          <img className={'contactImage'} src={'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=350'}>
+          <img className={'contactImage'} src={'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&h=350'}/>
         </div>
         <div className={'contactInformation'}>
           <p className={'contactLabel'}>

@@ -57,8 +57,8 @@ var ContactForm = React.createClass({
         />
         <button
           type={'submit'}
-          className={'btn btn-primary btn-block'}
-          'Dodaj kontakt'>
+          className={'btn btn-primary btn-block'}>
+          'Dodaj kontakt'
         </button>
       </form>
     )
