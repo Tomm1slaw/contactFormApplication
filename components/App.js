@@ -25,15 +25,31 @@ var contactForm = {
   email: ''
 };
 
+// var App = React.createClass({
+//   render: function() {
+//     return (
+//       React.createElement('div', {className: 'app'},
+//         React.createElement('div', {className: 'form'},
+//         React.createElement(ContactForm, {contact: contactForm})
+//         ),
+//         React.createElement(Contacts, {items: contacts}, {})
+//       )
+//     );
+//   }
+// });
+
+// JSX
+
 var App = React.createClass({
   render: function() {
     return (
-      React.createElement('div', {className: 'app'},
-        React.createElement('div', {className: 'form'},
-        React.createElement(ContactForm, {contact: contactForm})
-        ),
-        React.createElement(Contacts, {items: contacts}, {})
-      )
+      <div className={'app'}>
+        <div className={'form'}>
+        <ContactForm />
+        <Contacts />
+        </div>
+      </div>
     );
   }
 });
+
