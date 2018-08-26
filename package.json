@@ -1,0 +1,23 @@
+{
+  "name": "contactformapplication",
+  "version": "1.0.0",
+  "description": "https://tomm1slaw.github.io/contactFormApplication/",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomm1slaw/contactFormApplication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomm1slaw/contactFormApplication/issues"
+  },
+  "homepage": "https://github.com/Tomm1slaw/contactFormApplication#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
