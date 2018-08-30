@@ -41,6 +41,7 @@ var contactForm = {
   firstName: '',
   lastName: '',
   email: ''
+  };
 
 render: function() {
     var contacts = this.props.items.map(function(contact) {
