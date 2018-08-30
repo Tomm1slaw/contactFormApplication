@@ -46,8 +46,8 @@ var App = React.createClass({
       <div className={'app'}>
         <div className={'form'}>
         <ContactForm contact={contactForm}></ContactForm>
-        <Contacts items={contacts}></Contacts>
         </div>
+        <Contacts items={contacts}></Contacts>
       </div>
     );
   }
