@@ -39,7 +39,7 @@ var ContactForm = React.createClass({
       <form className={'contactForm'}>
         <input 
           className={'form-control'} 
-          type:={'text'} 
+          type={'text'} 
           placeholder={'Imię'} 
           value={this.props.contact.firstName} 
         />
