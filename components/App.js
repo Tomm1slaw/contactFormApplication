@@ -45,8 +45,8 @@ var App = React.createClass({
     return (
       <div className={'app'}>
         <div className={'form'}>
-        <ContactForm contact={contactForm}><ContactForm/>
-        <Contacts items={contacts}><Contacts/>
+        <ContactForm contact={contactForm}></ContactForm>
+        <Contacts items={contacts}></Contacts>
         </div>
       </div>
     );
